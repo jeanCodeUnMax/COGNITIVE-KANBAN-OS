@@ -1,0 +1,16 @@
+name: Tâche atomique
+description: Une carte exécutable et vérifiable
+title: "[TASK] "
+labels: ["task"]
+body:
+  - type: textarea
+    id: outcome
+    attributes: { label: Résultat attendu }
+    validations: { required: true }
+  - type: textarea
+    id: acceptance
+    attributes: { label: Critères d'acceptation }
+    validations: { required: true }
+  - type: input
+    id: test
+    attributes: { label: Commande ou preuve de validation }

@@ -1,0 +1,7 @@
+{
+  "name": "Mon projet IA",
+  "vision": "Décrire la transformation souhaitée.",
+  "objective": "Livrer une V1 testable en une phrase.",
+  "constraints": ["Local-first", "Budget tokens limité", "Validation humaine avant architecture"],
+  "definitionOfDone": ["Tests verts", "Documentation à jour", "Démonstration reproductible"]
+}
