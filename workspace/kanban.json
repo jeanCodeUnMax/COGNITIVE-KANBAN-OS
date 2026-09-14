@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "project": {
     "name": "Cognitive Kanban OS",
     "vision": "Transformer une idée floue en travail vérifiable sans surcharge cognitive.",
@@ -89,128 +89,6 @@
         "estimate": "M",
         "parentId": null,
         "createdAt": "2026-07-27T06:53:32.442Z"
-      },
-      {
-        "id": "91383744",
-        "title": "Valider le périmètre V1",
-        "why": "Empêcher la vision globale de se transformer en chantier infini.",
-        "outcome": "Une phrase de périmètre et une liste explicite de hors-périmètre.",
-        "acceptanceCriteria": [
-          "Le résultat tient sur une page",
-          "Les exclusions sont écrites"
-        ],
-        "suggestedCommand": "",
-        "skill": "/architect",
-        "estimate": "S",
-        "parentId": null,
-        "createdAt": "2026-07-30T01:42:01.006Z"
-      },
-      {
-        "id": "75ddbbc8",
-        "title": "Valider l’architecture minimale",
-        "why": "",
-        "outcome": "Architecture, technologies et flux principal documentés.",
-        "acceptanceCriteria": [
-          "Aucun composant sans justification",
-          "Le chemin critique est identifiable"
-        ],
-        "suggestedCommand": "",
-        "skill": "/architect",
-        "estimate": "M",
-        "parentId": null,
-        "createdAt": "2026-07-30T01:42:01.006Z"
-      },
-      {
-        "id": "ab5d796d",
-        "title": "Générer le backlog atomique V1",
-        "why": "",
-        "outcome": "Chaque carte est testable et réalisable dans une session.",
-        "acceptanceCriteria": [
-          "Une seule intention par carte",
-          "Critères de fin vérifiables"
-        ],
-        "suggestedCommand": "",
-        "skill": "/planner",
-        "estimate": "M",
-        "parentId": null,
-        "createdAt": "2026-07-30T01:42:01.006Z"
-      },
-      {
-        "id": "3e9ce12d",
-        "title": "Exécuter la première carte prête",
-        "why": "",
-        "outcome": "Une modification réelle avec tests et preuve de validation.",
-        "acceptanceCriteria": [
-          "Tests exécutés",
-          "Résultat résumé",
-          "Kanban mis à jour"
-        ],
-        "suggestedCommand": "",
-        "skill": "/execute-next",
-        "estimate": "M",
-        "parentId": null,
-        "createdAt": "2026-07-30T01:42:01.006Z"
-      },
-      {
-        "id": "b7eec35f",
-        "title": "Valider le périmètre V1",
-        "why": "Empêcher la vision globale de se transformer en chantier infini.",
-        "outcome": "Une phrase de périmètre et une liste explicite de hors-périmètre.",
-        "acceptanceCriteria": [
-          "Le résultat tient sur une page",
-          "Les exclusions sont écrites"
-        ],
-        "suggestedCommand": "",
-        "skill": "/architect",
-        "estimate": "S",
-        "parentId": null,
-        "createdAt": "2026-07-30T01:43:34.294Z"
-      },
-      {
-        "id": "bb6a1c2b",
-        "title": "Valider l’architecture minimale",
-        "why": "",
-        "outcome": "Architecture, technologies et flux principal documentés.",
-        "acceptanceCriteria": [
-          "Aucun composant sans justification",
-          "Le chemin critique est identifiable"
-        ],
-        "suggestedCommand": "",
-        "skill": "/architect",
-        "estimate": "M",
-        "parentId": null,
-        "createdAt": "2026-07-30T01:43:34.295Z"
-      },
-      {
-        "id": "f1054116",
-        "title": "Générer le backlog atomique V1",
-        "why": "",
-        "outcome": "Chaque carte est testable et réalisable dans une session.",
-        "acceptanceCriteria": [
-          "Une seule intention par carte",
-          "Critères de fin vérifiables"
-        ],
-        "suggestedCommand": "",
-        "skill": "/planner",
-        "estimate": "M",
-        "parentId": null,
-        "createdAt": "2026-07-30T01:43:34.295Z"
-      },
-      {
-        "id": "5316a2a1",
-        "title": "Exécuter la première carte prête",
-        "why": "",
-        "outcome": "Une modification réelle avec tests et preuve de validation.",
-        "acceptanceCriteria": [
-          "Tests exécutés",
-          "Résultat résumé",
-          "Kanban mis à jour"
-        ],
-        "suggestedCommand": "",
-        "skill": "/execute-next",
-        "estimate": "M",
-        "parentId": null,
-        "createdAt": "2026-07-30T01:43:34.295Z"
       }
     ],
     "doing": [],
@@ -221,6 +99,6 @@
   "decisions": [],
   "metrics": {
     "createdAt": "2026-07-27T06:53:32.440Z",
-    "updatedAt": "2026-07-30T01:43:34.295Z"
+    "updatedAt": "2026-09-14T00:00:00.000Z"
   }
 }

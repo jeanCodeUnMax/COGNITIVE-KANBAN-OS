@@ -1,6 +1,6 @@
 {
   "name": "cognitive-kanban-os",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Un Kanban cognitif vivant qui transforme une vision en prochaines actions exécutables.",
   "type": "module",
@@ -10,7 +10,9 @@
     "demo": "node src/cli.js demo",
     "init-workspace": "node src/cli.js init",
     "status": "node src/cli.js status",
+    "doctor": "node src/cli.js doctor",
     "next": "node src/cli.js next",
+    "start-card": "node src/cli.js start",
     "test": "node --test"
   },
   "engines": { "node": ">=20" },
